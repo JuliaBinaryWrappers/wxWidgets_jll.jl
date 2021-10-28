@@ -1,0 +1,244 @@
+[[wxWidgets]]
+arch = "aarch64"
+git-tree-sha1 = "a13d97756d25fd89f638628ba43d7d3c1ecb2e44"
+os = "macos"
+
+    [[wxWidgets.download]]
+    sha256 = "003e2d070e2d9449852f0c0b4e63b1f7ca7c5c9120066f2044722197e0d43122"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.aarch64-apple-darwin.tar.gz"
+[[wxWidgets]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e008a55e86d55c4a54151705f8ce7b68a9dea168"
+libc = "glibc"
+os = "linux"
+
+    [[wxWidgets.download]]
+    sha256 = "86f75588574bf128878bc166100c896e6d847a04452446ee5ce1349c42bf8c08"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.aarch64-linux-gnu-cxx03.tar.gz"
+[[wxWidgets]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "692a90dbae2d3e16eca57aaffde1b34ccbe9729b"
+libc = "glibc"
+os = "linux"
+
+    [[wxWidgets.download]]
+    sha256 = "e64ab0a21d1a93a76e12ab7e1ee5d0e729a41437c9322f606d791ebf38877424"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.aarch64-linux-gnu-cxx11.tar.gz"
+[[wxWidgets]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "796e07fbe88ebeaf2e2532839aa1208137f6fd2e"
+libc = "musl"
+os = "linux"
+
+    [[wxWidgets.download]]
+    sha256 = "f14e75e42a9d15d5ac7fa53992d05af543b2c76d04486f27018466055e7c9622"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.aarch64-linux-musl-cxx03.tar.gz"
+[[wxWidgets]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3c2b5fe87dc0087f56bfcb7db333dd5cf2821184"
+libc = "musl"
+os = "linux"
+
+    [[wxWidgets.download]]
+    sha256 = "b81e74527659b94390bdd6b6d3bd20b25e9225a7d971564d60dd2cdeaf56c67e"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.aarch64-linux-musl-cxx11.tar.gz"
+[[wxWidgets]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "77737c089cbf41d45399f21e624e8be2a02afde8"
+libc = "glibc"
+os = "linux"
+
+    [[wxWidgets.download]]
+    sha256 = "74ef742f1df1ba51743d03e92aff2a9847b4bb530b212c1184272448fd806526"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[wxWidgets]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "87f4891cb3c78d0bd40ecd998dcf2d91fe694aa9"
+libc = "glibc"
+os = "linux"
+
+    [[wxWidgets.download]]
+    sha256 = "16feee960a4e961548c404730d05037bdc7f8ba736528a7b39ac47274909af38"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[wxWidgets]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6bc410817f0dc5a006170d35e0e7bb51d5ac3113"
+libc = "musl"
+os = "linux"
+
+    [[wxWidgets.download]]
+    sha256 = "e539438d817ae4dee2a6e8a393518b9fb25ca3001041ed93d0f059d333c49647"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[wxWidgets]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2dbefa96d0a8f8f86ec08e5091f98fce6676c4aa"
+libc = "musl"
+os = "linux"
+
+    [[wxWidgets.download]]
+    sha256 = "cfe1c95d522b553b02da2120e9b3fbfb598200692a6ac998d67020e4b4d849ba"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[wxWidgets]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "eb3062d2e882ffaf244d8dcf4d784d9b3037106f"
+libc = "glibc"
+os = "linux"
+
+    [[wxWidgets.download]]
+    sha256 = "1b358c870e65385fdb9238e78db6eccaa5ca4e6acf06235ed27bc0f868017457"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.i686-linux-gnu-cxx03.tar.gz"
+[[wxWidgets]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9a0b4c544daaef4cbe8d3009bddbce993bcc04b0"
+libc = "glibc"
+os = "linux"
+
+    [[wxWidgets.download]]
+    sha256 = "4a3c0ef3ea06145a38a15e2623f53d653038c535bdc1a663659fa6dff9543c9c"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.i686-linux-gnu-cxx11.tar.gz"
+[[wxWidgets]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "d9c3624604e8b26723a2cd990dc3ca4220fec87f"
+libc = "musl"
+os = "linux"
+
+    [[wxWidgets.download]]
+    sha256 = "2a5b27d6af785f2e43bdeb2b56a10f957b87406f56dbaccfe1149d5c82d585f8"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.i686-linux-musl-cxx03.tar.gz"
+[[wxWidgets]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1a1e6f807dfa7d35a379dd1a63999bac3fc4e22c"
+libc = "musl"
+os = "linux"
+
+    [[wxWidgets.download]]
+    sha256 = "4b7af4d1de5e615af2763a5877b5cb83c6dbdc277e8dfa0c1ba5f9856c4069ac"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.i686-linux-musl-cxx11.tar.gz"
+[[wxWidgets]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f01227513cecc5accf3cdbcbd54dddc0bfc113fa"
+os = "windows"
+
+    [[wxWidgets.download]]
+    sha256 = "83889fe1ac6ef2d91f57b39f264eedebe89f4fee76af55359f4c274abb3839d8"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.i686-w64-mingw32-cxx03.tar.gz"
+[[wxWidgets]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7678754802a89646678455cccacf9342b66c05d1"
+os = "windows"
+
+    [[wxWidgets.download]]
+    sha256 = "97c885b45bacc0ad12537cb0c4eaa1769349e6280780fdcdb0a905cd0670a10d"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.i686-w64-mingw32-cxx11.tar.gz"
+[[wxWidgets]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9ef52cb0602870d20a11faab893660f49c927ab2"
+libc = "glibc"
+os = "linux"
+
+    [[wxWidgets.download]]
+    sha256 = "845944c9e7b3ab0cfac851dcd7bba0d65463a210e64b380dd56a78aebfcf831e"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[wxWidgets]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3a71f39fd4190766113e72bfe44930f0f7c1b1dc"
+libc = "glibc"
+os = "linux"
+
+    [[wxWidgets.download]]
+    sha256 = "8287d8f5232654cb18288ce726e2bd02720ed4340db7e26d72bcc32a33d38d6e"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[wxWidgets]]
+arch = "x86_64"
+git-tree-sha1 = "e717aef895018b1ff44502e969d01ae1447623f0"
+os = "macos"
+
+    [[wxWidgets.download]]
+    sha256 = "da5e182d199cd1e59d0e3f7091c4012c1199d69a9c539c03aa6f8ae06b375a8c"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.x86_64-apple-darwin.tar.gz"
+[[wxWidgets]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f39452a3f6791d31fc51ad7395ab48b8c5dc0d6b"
+libc = "glibc"
+os = "linux"
+
+    [[wxWidgets.download]]
+    sha256 = "9fc9266533f3d3a1fd65d844014054b0a09043c75cf4e34ffd47c342d8b9d0c3"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.x86_64-linux-gnu-cxx03.tar.gz"
+[[wxWidgets]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "30105c96edd80363cb64e1e7f8fcd0caa9882d46"
+libc = "glibc"
+os = "linux"
+
+    [[wxWidgets.download]]
+    sha256 = "a1b18081fa9fe97018be49bcdcf01ebcbff9b2c61c8c9c1c4e108cac339c028d"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.x86_64-linux-gnu-cxx11.tar.gz"
+[[wxWidgets]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "99d02b3ceaaadadfe207fa635c228c764ece9691"
+libc = "musl"
+os = "linux"
+
+    [[wxWidgets.download]]
+    sha256 = "96e0716ff04a5599f31fcaa181f6c5ced310568f963173e43b48ffe66c57e2d4"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.x86_64-linux-musl-cxx03.tar.gz"
+[[wxWidgets]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "325d671e7b6e557adecec2e4b28beb49f3e97a61"
+libc = "musl"
+os = "linux"
+
+    [[wxWidgets.download]]
+    sha256 = "803a2168e22a6e86c0529cd39e65396994701edf2ffa0e764353b674b82200c4"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.x86_64-linux-musl-cxx11.tar.gz"
+[[wxWidgets]]
+arch = "x86_64"
+git-tree-sha1 = "d18dae5e0ce2a6fede08e3be776e175b5c7d657d"
+os = "freebsd"
+
+    [[wxWidgets.download]]
+    sha256 = "fc11b4264ec2d48381718946131b5e28e1913df05c6679941df2df48f481392f"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.x86_64-unknown-freebsd.tar.gz"
+[[wxWidgets]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "8b75612e9f2ba4eddb5e41087a627fe907831f3d"
+os = "windows"
+
+    [[wxWidgets.download]]
+    sha256 = "980b60a4570b70f458b674d4ae020cf550721919017ddcd4425a4242216cd914"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.x86_64-w64-mingw32-cxx03.tar.gz"
+[[wxWidgets]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6beb45442f23e287118f6ade97cace219ca03441"
+os = "windows"
+
+    [[wxWidgets.download]]
+    sha256 = "aaa431b883ad7e42343929d5802b0239e97053ca0d6077101394f9a89b1d636f"
+    url = "https://github.com/JuliaBinaryWrappers/wxWidgets_jll.jl/releases/download/wxWidgets-v3.1.5+0/wxWidgets.v3.1.5.x86_64-w64-mingw32-cxx11.tar.gz"
