@@ -9,96 +9,96 @@ using GTK3_jll
 using Zlib_jll
 using Expat_jll
 JLLWrappers.@generate_wrapper_header("wxWidgets")
-JLLWrappers.@declare_library_product(aui, "wxmsw315u_aui_gcc_custom.dll")
-JLLWrappers.@declare_library_product(baseu, "wxbase315u_gcc_custom.dll")
-JLLWrappers.@declare_library_product(baseu_net, "wxbase315u_net_gcc_custom.dll")
-JLLWrappers.@declare_library_product(baseu_xml, "wxbase315u_xml_gcc_custom.dll")
-JLLWrappers.@declare_library_product(core, "wxmsw315u_core_gcc_custom.dll")
-JLLWrappers.@declare_library_product(html, "wxmsw315u_html_gcc_custom.dll")
-JLLWrappers.@declare_library_product(propgrid, "wxmsw315u_propgrid_gcc_custom.dll")
-JLLWrappers.@declare_library_product(qa, "wxmsw315u_qa_gcc_custom.dll")
-JLLWrappers.@declare_library_product(ribbon, "wxmsw315u_ribbon_gcc_custom.dll")
-JLLWrappers.@declare_library_product(richtext, "wxmsw315u_richtext_gcc_custom.dll")
-JLLWrappers.@declare_library_product(stc, "wxmsw315u_stc_gcc_custom.dll")
+JLLWrappers.@declare_library_product(aui, "wxmsw32u_aui_gcc_custom.dll")
+JLLWrappers.@declare_library_product(baseu, "wxbase32u_gcc_custom.dll")
+JLLWrappers.@declare_library_product(baseu_net, "wxbase32u_net_gcc_custom.dll")
+JLLWrappers.@declare_library_product(baseu_xml, "wxbase32u_xml_gcc_custom.dll")
+JLLWrappers.@declare_library_product(core, "wxmsw32u_core_gcc_custom.dll")
+JLLWrappers.@declare_library_product(html, "wxmsw32u_html_gcc_custom.dll")
+JLLWrappers.@declare_library_product(propgrid, "wxmsw32u_propgrid_gcc_custom.dll")
+JLLWrappers.@declare_library_product(qa, "wxmsw32u_qa_gcc_custom.dll")
+JLLWrappers.@declare_library_product(ribbon, "wxmsw32u_ribbon_gcc_custom.dll")
+JLLWrappers.@declare_library_product(richtext, "wxmsw32u_richtext_gcc_custom.dll")
+JLLWrappers.@declare_library_product(stc, "wxmsw32u_stc_gcc_custom.dll")
+JLLWrappers.@declare_library_product(xrc, "wxmsw32u_xrc_gcc_custom.dll")
 JLLWrappers.@declare_executable_product(wxrc)
-JLLWrappers.@declare_library_product(xrc, "wxmsw315u_xrc_gcc_custom.dll")
 function __init__()
     JLLWrappers.@generate_init_header(libpng_jll, JpegTurbo_jll, Libtiff_jll, LibCURL_jll, GTK3_jll, Zlib_jll, Expat_jll)
     JLLWrappers.@init_library_product(
         aui,
-        "bin\\wxmsw315u_aui_gcc_custom.dll",
+        "bin\\wxmsw32u_aui_gcc_custom.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         baseu,
-        "bin\\wxbase315u_gcc_custom.dll",
+        "bin\\wxbase32u_gcc_custom.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         baseu_net,
-        "bin\\wxbase315u_net_gcc_custom.dll",
+        "bin\\wxbase32u_net_gcc_custom.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         baseu_xml,
-        "bin\\wxbase315u_xml_gcc_custom.dll",
+        "bin\\wxbase32u_xml_gcc_custom.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         core,
-        "bin\\wxmsw315u_core_gcc_custom.dll",
+        "bin\\wxmsw32u_core_gcc_custom.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         html,
-        "bin\\wxmsw315u_html_gcc_custom.dll",
+        "bin\\wxmsw32u_html_gcc_custom.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         propgrid,
-        "bin\\wxmsw315u_propgrid_gcc_custom.dll",
+        "bin\\wxmsw32u_propgrid_gcc_custom.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         qa,
-        "bin\\wxmsw315u_qa_gcc_custom.dll",
+        "bin\\wxmsw32u_qa_gcc_custom.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         ribbon,
-        "bin\\wxmsw315u_ribbon_gcc_custom.dll",
+        "bin\\wxmsw32u_ribbon_gcc_custom.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         richtext,
-        "bin\\wxmsw315u_richtext_gcc_custom.dll",
+        "bin\\wxmsw32u_richtext_gcc_custom.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         stc,
-        "bin\\wxmsw315u_stc_gcc_custom.dll",
+        "bin\\wxmsw32u_stc_gcc_custom.dll",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        xrc,
+        "bin\\wxmsw32u_xrc_gcc_custom.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_executable_product(
         wxrc,
-        "bin\\wxrc-3.1.exe",
-    )
-
-    JLLWrappers.@init_library_product(
-        xrc,
-        "bin\\wxmsw315u_xrc_gcc_custom.dll",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        "bin\\wxrc-3.2.exe",
     )
 
     JLLWrappers.@generate_init_footer()
